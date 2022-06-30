@@ -65,8 +65,8 @@ export default function Navbar() {
   };
 
   return (
-    <Box>
-      <AppBar position="stick">
+    <Box sx={{ marginBottom: 8 }}>
+      <AppBar position="fixed">
         <StyledToolbar>
           <Typography
             variant="h6"
